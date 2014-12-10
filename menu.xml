@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+Every category must have a display and at least one item
+Every item must have a name and at least one size (use 'One Size' as the size)
+An item may have a description (optional)
+-->
+<menu>
+
+	<pizzas>
+		<display>Pizzas</display>
+
+		<item name="Tomato &amp; Cheese">
+			<name>Tomato &amp; Cheese</name>
+			<sizes>	
+				<Small>5.50</Small>
+				<Large>9.75</Large>
+			</sizes>
+		</item>
+
+	</pizzas>
+
+	<specpizzas>
+		<display>Specialty Pizzas</display>
+
+		<item>
+			<name>Three Aces Special</name>
+			<sizes>
+				<Small>9.80</Small>
+				<Large>15.80</Large>
+			</sizes>
+		</item>
+
+		<item>
+			<name>Mediterranean</name>
+			<sizes>
+				<Small>9.80</Small>
+				<Large>15.80</Large>
+			</sizes>
+			<description>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese</description>
+		</item>
+
+	</specpizzas>
+
+	<specdinners>
+		
+	</specdinners>
+
+</menu>
