@@ -63,7 +63,18 @@ if ($items[0])
 				<form action="cart.php" method="post">
 				<?= $size ?>: $<?= $price ?>   
 					<input type="hidden" name="action" value="add" />
-					Qty: <input type="text" name="quantity" size="2px" />
+					Qty: 
+					<select name="quantity">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+					</select>
 					<input type="hidden" name="item" value="<?= $items['name'] ?>">
 					<input type="hidden" name="price" value="<?= $price ?>">
 					<input type="hidden" name="size" value="<?= $size ?>">

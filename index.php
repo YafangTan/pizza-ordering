@@ -1,4 +1,5 @@
 <?php	
+
 $title = "Home";
 
 require("helpers.php");
@@ -20,4 +21,5 @@ foreach ($categories as $category)
 
 print "</p>";
 require("footer.php");
+
 ?>
